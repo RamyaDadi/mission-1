@@ -68,10 +68,20 @@ body{
     margin:20px 0;
 }
 /*MENU STYLES*/
+.explore__menu__container{
+    margin-top: 50px;
+}
+.explore__menu__text{
+    font-size: 30px;
+    color:#1d3557;
+    margin:20px 0;
+    text-align: center;
+}
 .food__menu__card{
     width:100%;
     background-color: #fff;
     border-radius: 8px;
+    margin-bottom: 15px;
 }
 .food__image{
     width: 100%;
@@ -80,7 +90,10 @@ body{
 .food__menu__card__description{
     padding: 20px;
 }
-
+.explore__menu__view__more{
+    display:flex;
+    justify-content: center;
+}
 @media(min-width:768px){
     .navbar{
         justify-content: space-between;
